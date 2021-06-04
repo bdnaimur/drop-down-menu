@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('.owl-carousel').owlCarousel({
-        stagePadding: 80,
+        // stagePadding: 80,
         loop:true,
         margin:15,
         nav:true,
