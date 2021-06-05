@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.owl-carousel').owlCarousel({
+    $('.project-owl').owlCarousel({
         // stagePadding: 80,
         loop:true,
         margin:15,
@@ -18,7 +18,7 @@ $(document).ready(function(){
         }
     })
 
-    $('.chioce-carousel').owlCarousel({
+    $('.blog-carousel').owlCarousel({
         // stagePadding: 80,
         loop:true,
         margin:15,
@@ -29,10 +29,10 @@ $(document).ready(function(){
                 items:1
             },
             600:{
-                items:3
+                items:1
             },
             1400:{
-                items:3
+                items:1
             }
         }
     })
