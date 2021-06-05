@@ -23,6 +23,11 @@ body{
     float: left;
     padding: 0 15px;
 }
+.col-md-6{
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+}
 .col-md-4{
     width: 33.33%;
     float: left;
@@ -30,6 +35,11 @@ body{
 }
 .col-md-3{
     width: 25%;
+    float: left;
+    padding: 0 15px;
+}
+.col-md-2{
+    width: 16.67%;
     float: left;
     padding: 0 15px;
 }
@@ -320,20 +330,6 @@ a{
 .project-content span{
 
 }
-
-/* .project-owl .owl-nav {
-    border-radius: 5px;
-    height: 40px;
-    width: 50px;
-    line-height: 40px;
-    color: rgb(231, 25, 25);
-    position: absolute;
-    top: 180px;
-    left: 30px;
-    font-size: 30px;
-    text-align: center;
-} */
-
 .project-owl.owl-carousel .owl-nav button.owl-next, .project-owl.owl-carousel .owl-nav button.owl-prev {
     color: white;
     height: 30px;
@@ -370,4 +366,98 @@ a{
 }
 .project-area .section-title h2:before{
     background-color: white;
+}
+/* choice-area-start */
+
+.choice-thumb-single{
+    position: relative;
+}
+.choice-thumb-play{
+    position: absolute;
+    font-size: 40px;
+    top: 50%;
+    left: 25%;
+    z-index: 22;
+}
+.choice-thumb-play a{
+    text-decoration: none;
+    color: white;
+}
+.choice-thumb-play a i{
+
+}
+.choice-icon{
+    display: flex;
+}
+.choice-icon i{
+
+}
+.choice-icon p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #555555;
+    margin-left: 15px;
+}
+.choice-details{
+    margin-bottom: 20px;
+}
+.choice-details p{
+    margin-top: 20px;
+    line-height: 25px;
+    color: #555555;;
+}
+/* choice-area-end */
+/* working-area-start */
+.working-area{
+    background-color: #f0f0f0;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.working-area .section-title{
+    margin-bottom: 20px;
+}
+.working-single{
+    text-align: center;
+}
+.working-single p{
+    color: #555555;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.working-single a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4272d7;
+    color: white;
+}
+/* blog-testmonial */
+.blog-testimonial-area{
+
+}
+.blog-post-curousel{
+
+}
+.blog-post-curousel .section-title {
+    text-align: left;
+    margin-bottom: 25px;
+}
+.blog-post-curousel .section-title h2:before{
+    left: 0;
+    right: auto;
+}
+.blog-img{
+    position: relative;
+}
+.blog-text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    background-color: yellow;
+    width: 35.33%;
+}
+.blog-text p{
+    
+    /* width: 100%; */
 }
